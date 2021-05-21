@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to Colchis Island</title>
+	<link rel="stylesheet" type="text/css" href="css\bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css\carousel.css">
+	<link rel="stylesheet" type="text/css" href="css\style.css">
+	<script type="text/javascript" src="js\bootstrap.js"></script>
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Lobster&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+	</style>
+</head>
+<body>
+
+<!-- Nav -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed_nav">
+	<div class="container-fluid">
+		    <a class="navbar-brand brand_name" href="#"><img src="image\icon\logo.png" title="Argo" alt="Argo Logo"> Argo On Sails</a>
+
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		    </button>
+
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				        <li class="nav-item">
+				          <a class="nav-link nav_anchor" aria-current="page" href="#about_kingdom">About</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link nav_anchor" href="royal-family.html">Royal Family</a>
+				        </li>
+				        <li class="nav-item dropdown">
+					          <a class="nav-link dropdown-toggle nav_anchor" href="royal-assets.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					            Royal Assets
+					          </a>
+					          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						            <li><a class="dropdown-item nav_anchor" href="royal-assets.html">Inventory</a></li>
+						            <li><a class="dropdown-item nav_anchor" href="royal-assets.html#events">Events</a></li>
+					          </ul>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link nav_anchor" href="contact.html">Contact</a>
+				        </li>
+			      </ul>
+		    </div>
+	</div>
+</nav>
+
+<!-- Carousel  -->
+
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+
+    	<div class="carousel-indicators">
+
+	      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+	      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+	    
+	    </div>
+
+	<div class="carousel-inner">
+
+		    <div class="carousel-item active">
+			        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+			        <img src="image\family.png" id="family_img">
+			        <!-- Start diapositiv text -->
+			        <div class="container">
+				          <div class="carousel-caption text-start carousel_anchor">
+				            <h1>Royal Family</h1>
+				            <p>Hello World !</p>
+				            <p><a class="btn btn-lg btn-primary carousel_btn carousel_anchor" href="royal-family.html">About</a></p> 
+				          </div>
+			        </div>
+	      	</div>
+
+		    <div class="carousel-item">
+			        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+			        <img src="image\army3.jpg" id="army_img">
+			        <!-- Start diapositiv text -->
+			        <div class="container">
+				          <div class="carousel-caption text-end carousel_anchor">
+				            <h1>Argonaut's Army</h1>
+				            <p>Our Powerful Warriors</p>
+				            <p><a class="btn btn-lg btn-primary carousel_btn carousel_anchor"  href="contact.html">Join Us</a></p> 
+				          </div>
+			        </div>
+		    </div>
+
+    </div> <!-- end of .carousel-inner -->
+
+	    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+		      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		      <span class="visually-hidden">Previous</span>
+	    </button>
+	    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+		      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		      <span class="visually-hidden">Next</span>
+	    </button>
+
+</div> <!-- end of #myCarousel -->
+
+<!-- Icons Bann below Carousel -->
+
+<div class="container marketing" id="icon_bann">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+        <div class="col-lg-4 bann_txt">
+		        <img src="image\icon\shield.png" class="feat_icon icons">
+		        <h2>Power</h2>
+		        <p>The Power, it's not the whole to have it, it's necessary to keep it !</p>
+        </div>
+   
+        <div class="col-lg-4 bann_txt">
+		        <img src="image\icon\honnor.png" class="feat_icon icons">
+		        <h2>Honor</h2>
+		        <p>Our honor is essential, it's a pillar of our education, no arm no honor !</p>
+        </div>
+     
+        <div class="col-lg-4 bann_txt">
+		        <img src="image\icon\humor.png" class="feat_icon icons">
+		        <h2>Humor</h2>
+		        <p>We can laugth about evertything, but not about sandals !</p>
+		</div><!-- end of .col-lg-4 -->
+    </div><!-- end of .row -->
+
+<!-- About Kingdom -->
+
+<div class="container-fluid" id="kingdom_section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 about_txt" id="about_kingdom">
+				<h1>About Kingdom : </h1>
+				<p>
+					Colchis region, 6th century BC
+					<br><br>
+					In the luxurious palace of Colchis, Pollux our front-end developer, and Serverux our back-end developer are excited like children and bickering in the big majestic corridors.
+					<br><br>
+                    The expedition has begun everyone, the ship has dropped anchor and everyone is getting ready on deck.
+					We will miss our loved ones but after all we have enough bottles of wine to see them appear at our side every evening.
+					 After many adventures, the crew managed to reach Colchis where King Aeetes, guardian of the golden fleece, welcomed us.
+					 <br><br>
+ 					The king, who did not think that the crew would arrive alive, did not receive us with joy and challenged us to recover the fleece. 
+ 					<br>
+					Aeetes has always dreamed of having the best website of all Greek empires to promote the kingdom and thus find a suitor for his daughter, Medea (which is not an easy task, she is a bit weird...).
+				</p>
+			</div>
+			<div class="col-md-6">
+				<img src="image\expedition.jpg" id="expedition_img">
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Heroes Presentation -->
+
+<div class="container-fluid">
+	<div class="container about_heroes" id="heroes_section">
+		<h1>Our Heroes :</h1>
+		<div class="row heroes_bloc">
+			<div class="col-md-4">
+					<figure>
+						<img src="image\icon\jason.png" class="heroes_img" alt="Jason">
+						<blockquote class="blockquote">
+								<p>Jason</p>
+						</blockquote>
+						<figcaption class="blockquote-footer">
+								<p>Favorite Quote : <cite title="Source Title"> There is only one case where it is appropriate to approach a weird woman. It is to ask her if she does not know the address of a pretty woman.</cite></p>
+						</figcaption>
+					</figure>
+			</div>
+			<div class="col-md-4">
+					<figure>
+						<img src="image\icon\pollux.png" class="heroes_img" alt="Pollux">
+						<blockquote class="blockquote">
+								<p>Pollux</p>
+						</blockquote>
+						<figcaption class="blockquote-footer">
+								<p>Favorite Quote : <cite title="Source Title"> You can't understand recursion without first understanding recursion.</cite></p>
+						</figcaption>
+					</figure>
+			</div>
+			<div class="col-md-4">
+					<figure>
+						<img src="image\icon\serverux.png" class="heroes_img" alt="Serverux">
+						<blockquote class="blockquote">
+								<p>Serverux<p>
+						</blockquote>
+						<figcaption class="blockquote-footer">
+								<p>Favorite Quote : <cite title="Source Title"> If debugging is removing bugs, then programming can only be adding them.</cite></p>
+						</figcaption>
+					</figure>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Footer -->
+
+<footer>
+	<div class="container-fluid" id="foot">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+				<p class="brand_name"><img src="image\icon\logo.png"> Argo On Sails &copy;</p>
+				</div>
+				<div class="col order-1 foot_txt">
+				<p>
+					Opening :
+					<br>
+					<ul>
+						<li>
+						Week :
+						<br>
+						9H AM -1H00 PM
+						<br>
+						2H PM -6h00 PM
+						</li>							
+					</ul>
+				</p>	
+				</div>
+				<div class="col order-2 foot_txt">
+					<p>
+					<ul>
+						<li>
+						Adress :
+						<br>
+						300 Argonaut's Road
+						<br>
+						69000 Sails On The Rhône
+						<br><br>
+						</li>
+						<li>
+						@Papyrus :
+						<br>
+						Argo_love_sandals@papyrus.colchis
+						<br>
+						</li>
+					</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+</body>
+</html>

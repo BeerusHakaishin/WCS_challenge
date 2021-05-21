@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Royal Assets</title>
+	<link rel="stylesheet" type="text/css" href="css\bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css\carousel.css">
+	<link rel="stylesheet" type="text/css" href="css\style.css">
+	<script type="text/javascript" src="js\bootstrap.js"></script>
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Lobster&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+	</style>
+</head>
+<body>
+
+<!-- Nav -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed_nav">
+	<div class="container-fluid">
+		    <a class="navbar-brand brand_name" href="index.html"><img src="image\icon\logo.png" title="Argo" alt="Argo Logo"> Argo On Sails</a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				        <li class="nav-item">
+				          <a class="nav-link nav_anchor" aria-current="page" href="index.html#about_kingdom">About</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link nav_anchor" href="royal-family.html">Royal Family</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link nav_anchor" href="contact.html">Contact</a>
+				        </li>
+			      </ul>
+		    </div>
+	</div>
+</nav>
+
+<!-- inventory  --->
+<div class="container inventory">
+
+<table class="table">
+	<h1>Inventory</h1>
+	<thead>
+	    <tr id="thead">
+			<th>Item</th>
+			<th>Quantity</th>
+			<th>Availability</th>
+	    </tr>
+	</thead>
+	<tbody>
+	    <tr>
+	      	  <th scope="row">Wine Bottle</th>
+	      	  <td class="table-active">A lot</td>
+	          <td>Always</td>
+	    </tr>
+	    <tr>
+		      <th scope="row">Meat</th>
+		      <td class="table-active">50 lbs</td>
+		      <td>Limit to available quantities</td>
+	    </tr>
+	    <tr>
+		      <th scope="row">Sandals</th>
+		      <td class="table-active">100</td>
+		      <td>For eternity</td>
+	    </tr>
+	</tbody>
+</table>
+
+</div>
+
+<!-- Events -->
+
+<div class="container-fluid" id="events">
+	<div class="container cards_list">
+		<h1>Events</h1>
+		<div class="row">
+			<div class="col-md-4">
+
+				<div class="card" style="width: 300px;">
+					<div class="event_img">
+	  					<img src="https://cdn2.iconfinder.com/data/icons/date-and-time-fill-outline/64/Calendar_month_date_schedule_event_add-512.png" class="card-img-top" alt="...">
+	  					<img src="https://cdn2.iconfinder.com/data/icons/date-and-time-fill-outline/64/Calendar_month_date_schedule_event_done-256.png" class="card-img-top" alt="...">
+	  				</div>	
+	 				<div class="card-body">
+	    				<h5 class="card-title">Wine Party</h5>
+	    				<p class="card-text">The wine party is an event where your liver will be put to the test by one or more wines in a cubicle, for young people.</p>
+	    				<p class="selected_event">
+	    					<a class="btn btn-primary">Become a Drunkard !</a>
+	    				</p>
+	 				</div>
+				</div>
+
+			</div>
+			<div class="col-md-4">
+
+				<div class="card" style="width: 300px;">
+	  				<div class="event_img">
+	  					<img src="https://cdn2.iconfinder.com/data/icons/date-and-time-fill-outline/64/Calendar_month_date_schedule_event_add-512.png" class="card-img-top" alt="...">
+	  					<img src="https://cdn2.iconfinder.com/data/icons/date-and-time-fill-outline/64/Calendar_month_date_schedule_event_done-256.png" class="card-img-top" alt="...">
+	  				</div>	
+	 				<div class="card-body">
+	    				<h5 class="card-title">Sandal's Dance</h5>
+	    				<p class="card-text">Do you like dancing?
+						Do you feel inseparable from your sandals?
+						Come and hit the dance floor with your flashiest sandals !
+						</p>
+						<p class="selected_event">
+	    					<a class="btn btn-primary">The Roof is on Fire !</a>	
+	    				</p>
+	 				</div>
+				</div>
+				
+			</div>
+			<div class="col-md-4">
+
+				<div class="card" style="width: 300px;">
+	  					<div class="event_img">
+	  					<img src="https://cdn2.iconfinder.com/data/icons/date-and-time-fill-outline/64/Calendar_month_date_schedule_event_add-512.png" class="card-img-top" alt="...">
+	  					<img src="https://cdn2.iconfinder.com/data/icons/date-and-time-fill-outline/64/Calendar_month_date_schedule_event_done-256.png" class="card-img-top" alt="...">
+	  				</div>	
+	 				<div class="card-body">
+	    				<h5 class="card-title">Masked Ball</h5>
+	    				<p class="card-text">A masquerade ball, is an event in which people attend dressed in a costume or disguise,including a mask.
+	    				So come and try it !</p>
+	    				<p class="selected_event">
+	    					<a class="btn btn-primary">Get Masked !</a>			
+	    				</p>
+	 				</div>
+				</div>
+				
+			</div>
+		</div>
+		<br>
+		<p id="total">
+			Click on the Event's button of your choice to pin it
+			<br>
+			You have Pinned <em>0</em> Event(s)
+		</p>
+	</div> <!-- end of .cards_list -->
+		<script type="text/javascript" src="js\script.js"></script>
+</div>
+
+<!-- Footer -->
+
+<footer>	
+		<div class="container" id="foot">
+			<div class="row">
+				<div class="col">
+				<p class="brand_name"><img src="image\icon\logo.png"> Argo On Sails &copy;</p>
+				</div>
+				<div class="col order-1 foot_txt">
+				<p>
+					Opening :
+					<br>
+					<ul>
+						<li>
+						Week :
+						<br>
+						9H AM- 1H00 PM
+						<br>
+						2H PM- 6h00 PM
+						</li>							
+					</ul>
+				</p>	
+				</div>
+				<div class="col order-2 foot_txt">
+					<p>
+					<ul>
+						<li>
+						Adress :
+						<br>
+						300 Argonaut's Road 
+						<br>
+						69000 Sails On The Rhône
+						<br><br>
+						</li>
+						<li>
+						@Papyrus :
+						<br>
+						Argo_love_sandals@papyrus.colchis
+						<br>
+						</li>
+					</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+</footer>
+
+</body>
+</html>

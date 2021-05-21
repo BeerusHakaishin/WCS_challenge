@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="css\bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css\carousel.css">
+	<link rel="stylesheet" type="text/css" href="css\style.css">
+	<script type="text/javascript" src="js\bootstrap.js"></script>
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Lobster&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+	</style>
+</head>
+<body>
+
+<!-- Nav -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed_nav">
+	<div class="container-fluid">
+		    <a class="navbar-brand brand_name" href="index.html"><img src="image\icon\logo.png" title="Argo" alt="Argo Logo"> Argo On Sails</a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				        <li class="nav-item">
+				          <a class="nav-link nav_anchor" aria-current="page" href="index.html#about_kingdom">About</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link nav_anchor" href="royal-family.html">Royal Family</a>
+				        </li>
+				        <li class="nav-item dropdown">
+					          <a class="nav-link dropdown-toggle nav_anchor" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					            Royal Assets
+					          </a>
+					          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						            <li><a class="dropdown-item nav_anchor" href="royal-assets.html">Inventory</a></li>
+						            <li><a class="dropdown-item nav_anchor" href="royal-assets.html#events">Events</a></li>
+					          </ul>
+				        </li>
+			      </ul>
+		    </div>
+	</div>
+</nav>
+
+<!-- Contact -->
+
+<div class="container contact">
+	<form action="mailto:meziani-i@outlook.fr?subject=Contact" name="envoi" method="POST" enctype="text/plain" id="avis army newletters message">
+		<fieldset>
+		    <legend>Contact</legend>
+		    <div class="form-group">
+			      <label for="exampleInputEmail1" class="form-label mt-4 contact_text">Papyrus address</label>
+			      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email or Papyrus">
+			      <small id="emailHelp" class="form-text text-muted contact_text_sub">We'll never share your Papyrus with anyone else.</small>
+		    </div>
+		    <div class="form-group">
+			      <label for="exampleTextarea" class="form-label mt-4 contact_text">Message :</label>
+			      <textarea class="form-control" id="exampleTextarea" rows="3" name="message"></textarea>
+		    </div>
+
+		    <fieldset class="form-group">
+			     		<legend class="mt-4">Options :</legend>
+			    <div class="form-check">
+				        <input class="form-check-input" type="checkbox" name="newletters" value="follow" id="flexCheckDefault">
+				        <label class="form-check-label contact_text" for="flexCheckDefault">
+				          Get our weekly newsletter by Papyrus
+				        </label>
+			    </div>
+			    <script src="js\script.js"></script>
+			    <div class="form-check">
+				        <input class="form-check-input" type="checkbox" name="army" value="Join Army" id="flexCheckChecked" >
+				        <label class="form-check-label contact_text" for="flexCheckChecked">
+				          Join our Army
+				        </label>
+			    </div>
+		    </fieldset>	    
+			</fieldset>
+				<p class="contact_text">Rate our site :</p>
+					<input type="radio" name="avis" value="tres bien" id="very_good">
+					<label class="contact_text_sub" for="very_good">
+				          Very Good -  &nbsp; <!-- Unbreakable space keeps its content stuck to it -->
+				    </label>
+
+					<input type="radio" name="avis" value="bien" id="good">
+					<label class="contact_text_sub" for="good">
+					Good - &nbsp;
+					</label>
+
+					<input type="radio" name="avis" value="moyen" id="normal">
+					<label class="contact_text_sub" for="normal">
+					Normal - &nbsp;
+					</label>
+
+					<input type="radio" name="avis" value="Pas bien" id="bad">
+					<label class="contact_text_sub" for="bad">
+					Bad
+					</label>
+
+					<br>
+				<div id="form_contact" class="submit_btn">
+					<input type="submit" value="Send a Papyrus" name="Envoyer" class="contact_btn">
+					<input type="reset" value="Delete" name="Effacer" class="contact_btn">
+				</div>
+	</form>
+</div>
+
+<!-- Localisation -->
+
+
+<div class="container-fluid">
+	<div class="container">
+		<div class="row map">
+			<div class="col location">
+				<p>Our Location :</p>
+			</div>
+			<div class="col-order-1">
+				<iframe src="https://www.google.com/maps/d/embed?mid=1f97s_f4dfd1ZWUcSfVPI5-oaise-GQaI" width="540" height="380"></iframe>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Footer -->
+
+<footer>	
+		<div class="container" id="foot">
+			<div class="row">
+				<div class="col">
+				<p class="brand_name"><img src="image\icon\logo.png"> Argo On Sails &copy;</p>
+				</div>
+				<div class="col order-1 foot_txt">
+				<p>
+					Opening :
+					<br>
+					<ul>
+						<li>
+						Week :
+						<br>
+						9H AM- 1H00 PM
+						<br>
+						2H PM- 6h00 PM
+						</li>							
+					</ul>
+				</p>	
+				</div>
+				<div class="col order-2 foot_txt">
+					<p>
+					<ul>
+						<li>
+						Adress :
+						<br>
+						300 Argonaut's Road
+						<br>
+						69000 Sails On The Rhône
+						<br><br>
+						</li>
+						<li>
+						@Papyrus :
+						<br>
+						Argo_love_sandals@papyrus.colchis
+						<br>
+						</li>
+					</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+</footer>
+
+</body>
+</html>
