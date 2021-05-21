@@ -1,0 +1,386 @@
+/*             
+				Style.css 
+						 By
+				Beerus Hakaishin
+			For
+				Wild Code School Challenge 
+*/
+			
+
+
+/* ******************* Index.html ******************* */
+
+/* Nav */ 
+
+.fixed_nav{
+	position: fixed;
+	top : 0;
+	width: 100%;
+	z-index: 100;
+}
+
+.brand_name{
+	font-family: 'Girassol', cursive;
+	font-size: 1.4em;
+}
+
+.nav_anchor{
+	font-family: 'Lobster', cursive;
+	font-size: 1.2em;
+}
+
+
+
+/* _______________________________________________________*/
+
+/* Carousel */
+
+ #myCarousel{
+
+ }
+
+#family_img{
+		padding-top: 40px;
+		padding-right: -65px;
+}
+
+#army_img{
+
+}
+
+.carousel_btn{
+	border-color: rgb(110, 226, 255);
+	background-color: white;
+	color: rgb(110, 226, 255);
+}
+
+.carousel_btn:hover{
+	border-color: white;
+	background-color: rgb(110, 226, 255);
+	color: white;
+}
+
+.carousel_anchor{
+	font-family: 'Lobster', cursive;
+	font-size: 1.2em;
+}
+
+
+/* _______________________________________________________*/
+
+/* Icon Bann */
+
+#icon_bann{
+
+} 
+
+.icons{
+  transition: transform 200ms; /* Animation */
+  padding-bottom: 5px;
+}
+
+.icons:hover{
+  transform: scale(1.2); /* 120% zoom */
+}
+
+
+.bann_txt h2{
+	font-family: 'Lobster', cursive;
+	font-size: 2em;
+	color: rgb(110, 226, 255);
+
+}
+
+.bann_txt p{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1.2em;
+}
+
+/* _______________________________________________________*/
+
+/* About Kingdom */ 
+
+#kingdom_section{
+	padding-bottom: 25px;
+	border-top: 2px solid grey;
+	padding-top: 35px;
+}
+
+
+#expedition_img{
+	height: 550px;
+	width: 100%;
+	padding: 100px 0 30px 20px;
+}
+
+.about_txt h1{
+	font-family: 'Lobster', cursive;
+	font-size: 2em;
+	color: rgb(110, 226, 255);
+}
+
+.about_txt p{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1.2em;
+}
+
+/* _______________________________________________________*/
+
+/* Our Heroes */
+
+#heroes_section{
+	padding-bottom: 25px;
+	border-top: 2px solid grey;
+	padding-top: 35px;
+}
+
+.about_heroes h1{
+	font-family: 'Lobster', cursive;
+	font-size: 2em;
+	color: rgb(110, 226, 255);
+}
+
+.heroes_img{
+	padding-bottom: 20px;
+	transition: transform 200ms;
+}
+
+.heroes_img:hover{
+	transform: scale(1.1); /* 10% zoom */
+}
+
+
+
+
+/* _______________________________________________________*/
+
+/* Footer */
+
+#foot{
+	border-top: 2px solid grey;
+	padding-top: 35px;
+}
+
+.foot_txt p{
+	font-family: 'Lobster', cursive;
+	font-size: 1.2em;
+	color: rgb(110, 226, 255);
+}
+
+.foot_txt li{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1em;
+}
+
+/* *************************************************************************************** */
+
+				/* ******************* royal-family.html ******************* */
+
+/* family bloc */
+
+.family_bloc{
+	padding: 95px 0 35px 80px;
+}
+
+.family_img{
+	height: 500px;
+	width: 250px;
+	padding-bottom: 20px;
+	transition: transform 200ms;
+}
+
+.family_img:hover{
+	transform: scale(1.05); /* 5% zoom */
+}
+
+#king_img{
+	height: 500px;
+	width: 300px;
+}
+
+
+.blockquote p{
+	font-family: 'Lobster', cursive;
+	font-size: 1.5em;
+	color: rgb(110, 226, 255);
+
+}
+
+.blockquote-footer p{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1.2em;
+}
+
+
+
+/* *************************************************************************************** */
+
+				/* ******************* royal-assets.html ******************* */
+
+/* Inventory tabs */
+
+.inventory{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.inventory h1{
+	font-family: 'Lobster', cursive;
+	font-size: 2.5em;
+}
+
+#thead th{
+	font-family: 'Lobster', cursive;
+	font-size: 1.5em;
+	color: black;
+}
+
+.table th{
+	font-family: 'Lobster', cursive;
+	font-size: 1.5em;
+	color: rgb(110, 226, 255);
+}
+
+.table td{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1.2em;
+}
+
+
+/* Event section */
+
+#events{
+	padding-top: 30px;
+	padding-bottom: 65px;
+}
+
+
+.event_img img:last-child {
+  display: none;  
+}
+
+.event_img:hover img:last-child {
+  display: block;  
+}
+
+.event_img:hover img:first-child {
+  display: none;  
+}
+
+
+#events h1{
+	font-family: 'Lobster', cursive;
+	font-size: 2.5em;
+}
+
+.cards_list{
+	padding-top: 50px;
+}
+
+.card-title{
+	font-family: 'Lobster', cursive;
+	font-size: 2em;
+	color: rgb(110, 226, 255);
+
+}
+
+.card-text{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1.2em;
+}
+
+
+.selected_event a {
+	border-color: rgb(110, 226, 255);
+	background-color: white;
+	color: rgb(110, 226, 255);
+	font-family: 'Lobster', cursive;
+	font-size: 1.2em;
+}
+
+.selected_event a:hover{
+	background-color:rgb(110, 226, 255);
+}
+
+
+.selected_event a.selected
+{
+    border: 4px solid;
+    border-color: rgb(19, 148, 246);
+	background-color: rgb(110, 226, 255);
+	color: white;
+	font-family: 'Lobster', cursive;
+	font-size: 1.2em;
+
+}
+
+#total{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1.2em;
+}
+
+#total em{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: rgb(110, 226, 255);
+}
+
+/* *************************************************************************************** */
+
+				/* ******************* contact.html ******************* */
+
+
+.contact{
+	padding-top: 55px;
+	padding-bottom: 30px;
+}
+
+.contact legend , .contact p{
+	font-family: 'Lobster', cursive;
+	font-size: 1.5em;
+	color: rgb(110, 226, 255);
+	padding-top: 25px;
+}
+
+.contact_text{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1.2em;
+}
+
+.contact_text_sub{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1em;
+	color: black;
+}
+
+.submit_btn{
+	padding-top: 15px;
+}
+
+.contact_btn{
+	border-color: rgb(110, 226, 255);
+	background-color: white;
+	color: rgb(110, 226, 255);
+	font-family: 'Lobster', cursive;
+	font-size: 1.2em;
+}
+
+.contact_btn:hover{
+	border-color: white;
+	background-color: rgb(110, 226, 255);
+	color: white;
+	font-family: 'Lobster', cursive;
+	font-size: 1.2em;
+}
+
+.location p{
+	font-family: 'Lobster', cursive;
+	font-size: 1.5em;
+	color: rgb(110, 226, 255);
+	padding-top: 25px;
+}
+
+.map{
+	padding-bottom: 25px;
+}
